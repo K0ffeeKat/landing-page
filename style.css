@@ -13,11 +13,11 @@ body {
     display: flex;   
     flex-direction: column;
     height: 50vh;
-    background-color: rgb(109, 109, 109);
+    background-color: rgba(76, 76, 76, .3);
 }
 
 .element-1 {
-    background-color: rgb(92, 92, 92);
+    background-color: rgba(76, 76, 76, .5);
     display: flex;
     align-items: baseline;
 }
@@ -61,9 +61,9 @@ a {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 60px;
-    gap: 200px;
+    gap: 300px;
 }
 
 .element-2 {
@@ -97,10 +97,10 @@ a {
 button {
     font-family: inherit;
     padding: 10px 20px;
-    background-color:  rgb(76, 76, 76);
+    background-color:  rgba(76, 76, 76, .5);
     border-radius: 5px;
-    border-color: rgb(76, 76, 76);
-    color: rgb(186, 186, 186);
+    border-color: rgba(76, 76, 76, .5);
+    color: rgb(39, 39, 39);
     font-size: 20px;
     width: fit-content;
 }
@@ -139,4 +139,26 @@ figure img {
 figure figcaption {
     text-align: center;
     font-size: 20px;
+}
+
+.testimonials {
+    background-color: rgba(76, 76, 76, .3);
+    padding: 100px;
+}
+
+.f-1 blockquote {
+    font-size: 35px;
+    font-style: italic;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+div #t-cap {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 30vw;
+    text-align: right;
+    padding-bottom: 30px;
 }
